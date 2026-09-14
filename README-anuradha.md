@@ -1,6 +1,3 @@
-Absolutely. Since this is **your individual README for iCollege**, use the following as the complete content. You can copy-paste it into `README.md` or save it as `README-Sai-Anuradha-Kappaganthula.md`.
-
-# In-Class 1 v3 — Reinforcement Edition
 
 ## Personal Reflection & Peer Feedback
 
