@@ -63,3 +63,7 @@ void dispose() {
   _tabController.dispose();
   super.dispose();
 }
+
+## GitHub Collaboration
+
+I created a separate branch named `anuradha-notes` to work on my contribution without directly modifying the main branch. My changes will be reviewed by my teammate through a Pull Request before being merged into main.
