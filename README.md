@@ -38,3 +38,25 @@ The lifecycle section also helped me understand why controllers should be create
 
 I also learned how GitHub collaboration works in a team. Working on a separate branch, committing my own changes, creating a pull request, and reviewing my teammate's work helped me understand how developers can work on the same project without directly editing the `main` branch.
 
+The controller is created in `initState()` because this method runs when the State object is initialized.
+
+The controller is cleaned up in `dispose()` because it is no longer needed when the widget is removed.
+
+Example:
+
+```dart
+@override
+void initState() {
+  super.initState();
+  _tabController = TabController(length: 4, vsync: this);
+}
+
+@override
+void dispose() {
+  _tabController.dispose();
+  super.dispose();
+}
+
+## GitHub Collaboration
+
+I created a separate branch named `anuradha-notes` to work on my contribution without directly modifying the main branch. My changes will be reviewed by my teammate through a Pull Request before being merged into main.
