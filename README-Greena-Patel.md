@@ -1,4 +1,4 @@
-# In-Class 1 v3 — Reinforcement Edition
+# In-Class 1 v3 
 
 ## Student Name
 
